@@ -28,7 +28,7 @@ var PasswordComplicate = function(conf){
     };
   };
 
-  var _conf = Object.assign({}, conf, getDefaultConfig());
+  var _conf = Object.assign({}, getDefaultConfig(), conf);
 
   var getCharValue = function(char){
     switch (char){
